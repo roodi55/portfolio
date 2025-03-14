@@ -28,7 +28,6 @@ export default function App() {
         <div className='tab'>
           <Tab onClick={handleScrollView}/>
         </div>
-        <div></div>
         <div className='main'>
           <Present ref={scrollRef}/>
           <Skills ref={scrollRef}/>
