@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap');
+
+.box{
+    margin:15px;
+    margin-top: 50px;
+    border-radius:6px;
+    text-align: center;
+}
+.skill {
+    border-radius:3px;
+    margin-left:20px;
+    margin-top:45px;
+    padding:20px;
+    display:grid;
+    /* grid-template-columns:repeat(3,1fr); */
+    column-gap: 20px; 
+}
+
+.heading {  
+    padding: 0px 12px;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 30px;
+}
+.list{
+    height: 100%;
+   border:1px  black;
+   padding:1.2rem;
+   text-align: center;
+}
+.cardList{
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    gap: 40px;
+}
+.card{
+   border:1px  black;
+   padding: 0.5rem;
+   text-align: center;
+   box-shadow: 3px 5px 7px 5px #d9dbde ;
+   border-radius: 5px;
+}
+.card-image {
+    width: 100px;
+  }
+.card > li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.card > li > div > p{
+    margin: 0px;
+}
+.card-title{
+    bottom: 0px;
+    
+    font-family: "42dot Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+@keyframes text{
+    from{transform: translateX(-30px);
+        opacity:0;
+    }
+  }
+
+/*///////// Media Query //////////////*/
+@media (max-width:1027px){
+    
+    .skill {
+        grid-template-columns: 1fr;
+    }
+    .cardList{
+        display:grid;
+        grid-template-columns:repeat(5,1fr);
+        gap: 20px;
+    }
+    .list{
+        margin-bottom:25px
+    }
+}
+
+
+@media (max-width:769px){
+    .box{
+        text-align: center;
+    }
+    .Interest {
+        grid-template-columns: 1fr;
+    }
+    .cardList{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap: 20px;
+    }
+    .app{
+        margin-top:20px;
+        height:100%;
+         /* position: static; */
+     }
+     .other{
+        margin-top:20px;
+     }
+}
+
+@media (max-width:392px){
+    .Interest {
+        grid-template-columns: 1fr;
+    }
+    .cardList{
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        gap: 10px;
+    }
+    .app{
+         position: static;
+     }
+}

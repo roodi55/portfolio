@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap');
+
+.box {
+  margin: 15px;
+  margin-top: 50px;
+}
+.heading {
+  padding: 0px 12px;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.container {
+  width: 100%;
+  margin-left: 30px;
+  display: block;
+  margin-top: 30px;
+  border-radius: 3px;
+  padding: 0 42px 0 10px;
+  margin-left: 30px;
+  text-align: left;
+
+  font-family: "42dot Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.timeline_centered {
+  z-index: 1;
+  position: relative;
+  margin-bottom: 30px;
+}
+.timeline_centered:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 4px;
+  background: #f2f3f7;
+  top: 20px;
+  z-index: -1;
+  bottom: 20px;
+  margin-left: 19px;
+}
+.timeline_entry {
+  margin-bottom: 10px;
+  clear: both;
+}
+.timeline_icon {
+  display: block;
+  width: 40px;
+  font-size: 20px;
+  height: 40px;
+  background-color: #2a2b2c;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  -moz-box-shadow: 0 0 0 5px #f2f3f7;
+  -webkit-box-shadow: 0 0 0 5px #f2f3f7;
+  box-shadow: 0 0 0 5px #f2f3f7;
+  line-height: 35px;
+  float: left;
+}
+
+.label {
+  position: relative;
+  /* background: #f2f3f7; */
+  padding: 01.2em;
+  margin: 0 0 30px 30px;
+  display: grid;
+  gap: 20px;
+}
+
+/* ddddddddddddddddddddddd */
+.title{
+  display: flex;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+
+  :nth-child(2){
+    font-size: 0.7rem;
+    color: #858587;
+  }
+}
+.connection{
+  display: flex;
+  padding-bottom: 5px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.period{
+  font-size: 0.9rem;
+  color: #858587;
+}
+.tag{
+  padding-top: 10px;
+  gap: 10px;
+  display:flex;
+  /* grid-template-columns:repeat(10,1fr); */
+}
+.tag > li{
+  list-style: none;
+  width: fit-content;
+  padding: 2px;
+  color: #4369af;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+@keyframes text {
+  from {
+    transform: translateX(-30px);
+    opacity: 0.1;
+  }
+}
+
+@media (max-width: 992px) {
+  .box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .container {
+    padding: 0 42px 0 0;
+  }
+}

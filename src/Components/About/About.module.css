@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap');
+
+.box {
+  margin: 15px;
+  margin-top: 40px;
+  text-align: center;
+}
+.about {
+  margin-left: 20px;
+  padding: 20px;
+
+  font-family: "42dot Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.br {
+  margin-top: 20px;
+}
+
+.head {
+  display: inline-block;
+  padding: 0px 12px;
+  color: rgb(85, 85, 85);
+  margin-bottom: 20px;
+  margin-left: 30px;
+  letter-spacing: 5px;
+  font-size: 11px;
+}
+
+.heading {
+  padding: 0px 12px;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.tag{
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.tag > li{
+  list-style: none;
+  padding: 5px 8px;
+  border: 1px solid rgb(147, 142, 142);
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+@keyframes text {
+  from {
+    transform: translateX(-30px);
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 992px) {
+  .box {
+    text-align: center;
+  }
+}

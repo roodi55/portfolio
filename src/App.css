@@ -1,38 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: dot-sans;
+}
+
 .App {
-  text-align: center;
+  height: 710px;
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  /* grid-template-columns: 1fr 4fr; */
+  line-height: 1.3em;
+  letter-spacing: 0.04em;
+  padding: 0 10%;
+}
+.main {
+  overflow: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+}
+.main::-webkit-scrollbar{
+ display:none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/*//////////////// Media Query/////////////////*/
+
+@media (max-width: 992px) {
+  .App {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+  }
+  h2 {
+    font-weight: bold;
+  }
+  p {
+    font-weight: bolder;
+  }
+  .main {
+    margin-top: -40px;
+    overflow-y: hidden;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 769px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
   }
-  to {
-    transform: rotate(360deg);
+  .main {
+    overflow: auto;
+    overflow-x: hidden;
   }
 }
