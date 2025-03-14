@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sojeong/static/css/main.4318d2bc.css",
+    "main.js": "/sojeong/static/js/main.8ca16443.js",
+    "static/js/453.1407b060.chunk.js": "/sojeong/static/js/453.1407b060.chunk.js",
+    "static/media/spring.png": "/sojeong/static/media/spring.6b939e8a1cf48f7d7394.png",
+    "static/media/so_mimo.png": "/sojeong/static/media/so_mimo.ecfb96b75e712992d38b.png",
+    "static/media/sojeong.jpg": "/sojeong/static/media/sojeong.6cad0632326ec6646b4d.jpg",
+    "static/media/mariadb.png": "/sojeong/static/media/mariadb.92f19a57b0716d8fb55a.png",
+    "static/media/svn.png": "/sojeong/static/media/svn.d0691402f39481f45bad.png",
+    "static/media/react.png": "/sojeong/static/media/react.20adfb35ae6a6e5817bf.png",
+    "static/media/oracle.png": "/sojeong/static/media/oracle.30f889c29703ae623b7d.png",
+    "static/media/git.png": "/sojeong/static/media/git.dc2f3d7b5099801e5be2.png",
+    "static/media/vue.png": "/sojeong/static/media/vue.fe2977bc14cd610422ff.png",
+    "static/media/css.png": "/sojeong/static/media/css.99426a611bd5b768e71d.png",
+    "static/media/html.png": "/sojeong/static/media/html.54b390d15c6e2fec70af.png",
+    "static/media/java.png": "/sojeong/static/media/java.ae4aeb93738ebdf70858.png",
+    "index.html": "/sojeong/index.html",
+    "main.4318d2bc.css.map": "/sojeong/static/css/main.4318d2bc.css.map",
+    "main.8ca16443.js.map": "/sojeong/static/js/main.8ca16443.js.map",
+    "453.1407b060.chunk.js.map": "/sojeong/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4318d2bc.css",
+    "static/js/main.8ca16443.js"
+  ]
+}
