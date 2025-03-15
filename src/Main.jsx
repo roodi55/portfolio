@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import './App.css';
+import styles from './Main.module.css';
 
 import Tab from './Components/TabBar/Tab.jsx';
 import Present from './Components/Present/Present.jsx';
@@ -24,11 +24,11 @@ export default function App() {
     };
     
   return (
-      <div className='App'>
-        <div className='tab'>
+      <div className={styles['App']}>
+        <div className={styles['tab']}>
           <Tab onClick={handleScrollView}/>
         </div>
-        <div className='main'>
+        <div className={styles['main']}>
           <Present ref={scrollRef}/>
           <Skills ref={scrollRef}/>
           <Projects ref={scrollRef}/>

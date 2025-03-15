@@ -32,3 +32,25 @@
   color: black;
   font-size: 0.8rem;
 }
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 769px) {
+  .container{
+    margin: 5px;
+    padding: 10px;
+  }
+  .wrapper-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  .info > h5{
+    margin: 2px;
+  }
+}

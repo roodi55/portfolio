@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=swap');
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  height: 710px;
+  display: grid;
+  grid-template-rows: 1fr 9fr;
+  line-height: 1.3em;
+  letter-spacing: 0.04em;
+  padding: 0 10%;
+}
+
+.main {
+  overflow: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+}
+
+.main::-webkit-scrollbar{
+ display:none;
+}

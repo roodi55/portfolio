@@ -20,3 +20,10 @@
     align-items: center;
     color: #adadad;
 }
+
+@media (max-width:769px){
+    .main-footer {
+        height: 130px;
+    }
+}
+  

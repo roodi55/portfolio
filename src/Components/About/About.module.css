@@ -6,11 +6,12 @@
   text-align: center;
 }
 .about {
-  margin-left: 20px;
+  /* margin-left: 20px; */
   padding: 20px;
 
   font-family: "42dot Sans", sans-serif;
   font-optical-sizing: auto;
+  font-size: 1rem;
 }
 
 .br {
@@ -38,6 +39,7 @@
   padding-top: 20px;
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .tag > li{
   list-style: none;
@@ -47,15 +49,15 @@
   font-size: 0.8rem;
 }
 
-@keyframes text {
-  from {
-    transform: translateX(-30px);
-    opacity: 0.5;
-  }
+@media (max-width:1027px){
+    
+
 }
 
-@media (max-width: 992px) {
-  .box {
-    text-align: center;
+
+@media (max-width:769px){
+  .about {
+    padding: 5px;
+    font-size: 0.8rem;
   }
 }

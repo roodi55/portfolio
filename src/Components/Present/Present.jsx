@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styles from './Present.module.css';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot, faPaperclip, faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot, faPaperclip } from "@fortawesome/free-solid-svg-icons";
 
 import so from '../images/sojeong.jpg';
 import git from '../images/github.png';
@@ -15,7 +15,7 @@ export default function Present(props) {
             <div className={styles["wrapper-img"]}>
               <img src={so} alt='myImage' />
             </div>
-            <div>
+            <div className={styles["info"]}>
               <h2><b>이소정</b></h2>
               <h5>Junior Web Develper</h5>
               <h5>
