@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dev/static/css/main.4318d2bc.css",
-    "main.js": "/dev/static/js/main.a9e13117.js",
+    "main.css": "/dev/static/css/main.0a297635.css",
+    "main.js": "/dev/static/js/main.d4d3eb58.js",
     "static/js/453.1407b060.chunk.js": "/dev/static/js/453.1407b060.chunk.js",
     "static/media/spring.png": "/dev/static/media/spring.6b939e8a1cf48f7d7394.png",
     "static/media/so_mimo.png": "/dev/static/media/so_mimo.ecfb96b75e712992d38b.png",
@@ -16,12 +16,12 @@
     "static/media/html.png": "/dev/static/media/html.54b390d15c6e2fec70af.png",
     "static/media/java.png": "/dev/static/media/java.ae4aeb93738ebdf70858.png",
     "index.html": "/dev/index.html",
-    "main.4318d2bc.css.map": "/dev/static/css/main.4318d2bc.css.map",
-    "main.a9e13117.js.map": "/dev/static/js/main.a9e13117.js.map",
+    "main.0a297635.css.map": "/dev/static/css/main.0a297635.css.map",
+    "main.d4d3eb58.js.map": "/dev/static/js/main.d4d3eb58.js.map",
     "453.1407b060.chunk.js.map": "/dev/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4318d2bc.css",
-    "static/js/main.a9e13117.js"
+    "static/css/main.0a297635.css",
+    "static/js/main.d4d3eb58.js"
   ]
 }
