@@ -113,7 +113,7 @@ class Resume extends Component {
                 <div>2021-02-05 ~ 2021-03-17</div>
               </div>
               <div className={styles["desc"]}>
-                <p>
+                <div>
                   <b>공통 역할 :</b><br/>
                   - 프로젝트 기획 및 스토리보드 작성<br/>
                   - 클래스 및 데이터베이스 정의, 설계 및 구현<br/><br/>
@@ -166,14 +166,14 @@ class Resume extends Component {
                     <li>#Gson(JSON)</li>
                     <li>#MyBatis</li>
                   </ul>
-                </p>
+                </div>
               </div>
               <div className={styles["title"]}>
                 <div>영화관 예약 프로그램 구현</div>
                 <div>2021-01-20 ~ 2021-02-04</div>
               </div>
               <div className={styles["desc"]}>
-                <p>
+                <div>
                   <b>공통 역할 :</b><br/>
                   - 프로젝트 기획 및 스토리보드 작성<br/>
                   - 플로우차트 설계<br/>
@@ -208,14 +208,14 @@ class Resume extends Component {
                     <li>#Gson(JSON)</li>
                     <li>#MyBatis</li>
                   </ul>
-                </p>
+                </div>
               </div>
               <div className={styles["title"]}>
                 <div>쇼핑몰 페이지 구현</div>
                 <div>2020-12-21 ~ 2021-01-18</div>
               </div>
               <div className={styles["desc"]}>
-              <p>
+              <div>
                 <b>공통 역할 :</b><br/>
                 - 프로젝트 기획 및 스토리보드 작성<br/>
                 - 플로우차트 설계<br/>
@@ -252,7 +252,7 @@ class Resume extends Component {
                     <li>#Java Script</li>
                     <li>#HTML</li>
                   </ul>
-                </p>
+                </div>
               </div>
             </div>            
           </div>

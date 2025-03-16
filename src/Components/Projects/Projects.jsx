@@ -113,18 +113,16 @@ export default function Projects(props) {
 
   const getProjectCard = (cardItem) => {
     return (
-      <div className={styles["card"]} data-hover="상세 보기" onClick={()=>navigate('/detail/'+cardItem.path,{state :cardItem})}>
-        <li>
-            <div>
-                <a href={cardItem.link} target='_blank'>
-                    <img src={cardItem.image} className={styles["card__image"]} alt='' />
-                </a>
-                <h3 className={styles["card_title"]}>{cardItem.title}</h3>
-            </div>
-            <div className={styles["card_desc_container"]}>                 
-              <p>{cardItem.desc}</p>     
-            </div>
-        </li>
+      <div className={styles["card"]} data-hover="상세 보기" key={cardItem.path} onClick={()=>navigate('/detail/'+cardItem.path,{state :cardItem})}>
+        <div className={styles["card_title_wrapper"]}>
+          <div>
+            <img src={cardItem.image} className={styles["card__image"]} alt='' />
+          </div>
+          <h3 className={styles["card_title"]}>{cardItem.title}</h3>
+        </div>
+        <div className={styles["card_desc_container"]}>                 
+          <p>{cardItem.desc}</p>     
+        </div>
       </div>
     );
   };

@@ -64,7 +64,7 @@ const skills = [
 export default function Skills(props) {
   const getTools = (cardItem) => {
     return (
-      <div className={styles["card"]} >
+      <div className={styles["card"]} key={cardItem.title} >
         <li>
             <div style={{alignItems:'center',textAlign:'center'}}>
               <img src={cardItem.image} className={styles["card-image"]} alt='' />
