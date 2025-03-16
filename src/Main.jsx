@@ -9,7 +9,7 @@ import About from './Components/About/About.jsx';
 import Resume from './Components/Resume/Resume.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 
-export default function App() {
+export default function Main() {
 
   const scrollRef = useRef([]);
 
