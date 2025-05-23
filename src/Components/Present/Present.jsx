@@ -25,14 +25,10 @@ export default function Present(props) {
             </div>
           </div>
           <div className={styles["container-right"]}>
-            <h5>
-              <FontAwesomeIcon icon={faPaperclip} ></FontAwesomeIcon>&nbsp;
-              Keep grinding! Stay persistence!
-            </h5>
             <p> 
-              안녕하세요. 풀 스텍 개발자를 꿈꾸는 주니어 개발자 이소정 입니다.<br/>
-              저는 주로 자바를 이용한 웹 프로젝트에 참여해 왔으며 다양한 경험을 쌓기 위해 프론트엔드, 백엔드 구분 없이 <br/>
-              꾸준히 공부하며 나아가는 개발자가 되고자 합니다.
+              안녕하세요. 배우고 행동하고 기록하며 개발하는 이소정입니다.<br/>
+              저는 주로 자바를 이용한 프로젝트에 참여해 왔으며 다양한 지식 쌓기 위해 프론트, 데이터베이스 관련 업무 또한  <br/>
+              경험하였습니다. 분석에 능하고 리팩토링 능력이 출중한 자바 개발자가 되기 위해 노력하고자 합니다.
             </p>
           </div>
          

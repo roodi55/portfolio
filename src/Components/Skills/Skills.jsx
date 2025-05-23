@@ -16,16 +16,28 @@ import oracle from '../images/oracle.png';
 
 const skills = [
   {
+    image: java,
+    title:"Java"
+  },
+  {
+    image: spring,
+    title:"Spring"
+  },
+  {
+    image: mariadb,
+    title:"MariaDB"
+  },
+  {
+    image: oracle,
+    title:"Oracle"
+  },
+  {
     image: js,
     title:"Java Script"
   },
   {
     image: html,
     title:"HTML5"
-  },
-  {
-    image: css,
-    title:"css"
   },
   {
     image: react,
@@ -36,29 +48,9 @@ const skills = [
     title:"Vue"
   },
   {
-    image: java,
-    title:"Java"
-  },
-  {
-    image: spring,
-    title:"Spring"
-  },
-  {
     image: git,
     title:"Git"
   },
-  {
-    image: svn,
-    title:"SVN"
-  },
-  {
-    image: mariadb,
-    title:"MariaDB"
-  },
-  {
-    image: oracle,
-    title:"Oracle"
-  }
 ];
 
 export default function Skills(props) {
